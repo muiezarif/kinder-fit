@@ -2,9 +2,9 @@
   "name": "kinderfit-front",
   "version": "1.0.0",
   "description": "Kids fit platform",
-  "engines" : {
-    "npm" : "=6.14.12",
-    "node" : "=14.16.1"
+  "engines": {
+    "npm": "=6.14.12",
+    "node": "=14.16.1"
   },
   "dependencies": {
     "axios": "^0.27.2",
