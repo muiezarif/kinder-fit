@@ -1,8 +1,8 @@
 import express from "express"
 import cors from "cors"
-import contactUsRouter from "./routes/contactRoute"
-import productRouter from "./routes/productRoute"
-import adminBroRouter from "./routes/adminRoute"
+import contactUsRouter from "./routes/contactRoute.js"
+import productRouter from "./routes/productRoute.js"
+import adminBroRouter from "./routes/adminRoute.js"
 import * as path from "path";
 
 const app = express()

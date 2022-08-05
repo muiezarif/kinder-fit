@@ -1,6 +1,6 @@
-import app from "./app";
+import app from "./app.js";
 import dotenv from "dotenv"
-import connectDatabase from "./db/database";
+import connectDatabase from "./db/database.js";
 import path from "path";
 import express from "express";
 

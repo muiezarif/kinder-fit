@@ -1,4 +1,4 @@
-import Contact from "../model/Contact";
+import Contact from "../model/Contact.js";
 
 export const addContactUs = async(req,res,next) => {
     const {name,email,date,time,subject,message} = req.body;
