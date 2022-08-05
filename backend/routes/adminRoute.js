@@ -9,9 +9,8 @@ AdminBro.registerAdapter(AdminBroMongoose)
 
 const adminBro = new AdminBro({
     databases: [mongoose],
-    rootPath: '/admin',
+    rootPath: '/api/admin',
     branding: {
-        logo: 'https://cdn-icons-png.flaticon.com/128/908/908440.png',
         companyName: 'KinderFit',
     }
   })
