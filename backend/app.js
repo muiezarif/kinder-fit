@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.json())
 app.use("/api/kinderfit",contactUsRouter)
 app.use("/api/kinderfit",productRouter)
-app.use("/api/admin", adminBroRouter);
+app.use("/admin", adminBroRouter);
 
 
 export default app;
