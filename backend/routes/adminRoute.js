@@ -9,7 +9,7 @@ AdminBro.registerAdapter(AdminBroMongoose)
 
 const adminBro = new AdminBro({
     databases: [mongoose],
-    rootPath: '/admin',
+    rootPath: '/adminbro',
     branding: {
         companyName: 'KinderFit',
     }
