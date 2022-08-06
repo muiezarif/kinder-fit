@@ -10,11 +10,6 @@ import thunkMiddleware from 'redux-thunk'
 import reducers from '../redux/reducers'
 import Script from "next/script";
 import dynamic from 'next/dynamic'
-import '../public/vendor/aos/aos.css'
-import '../public/vendor/bootstrap/css/bootstrap.min.css'
-import '../public/vendor/glightbox/css/glightbox.min.css'
-import '../public/vendor/swiper/swiper-bundle.min.css'
-import '../public/css/style.css'
 import '../styles/globals.css'
 let store
 
@@ -43,14 +38,14 @@ function MyApp({ Component, pageProps }) {
             <link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
             <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
             <link href="/css/style.css" rel="stylesheet"/>
-            <Script src="https://code.jquery.com/jquery-2.1.3.min.js"/>
-            <Script src="/vendor/aos/aos.js"/>
-            <Script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"/>
-            <Script src="/vendor/glightbox/js/glightbox.min.js"/>
-            <Script src="/vendor/isotope-layout/isotope.pkgd.min.js"/>
-            <Script src="/vendor/swiper/swiper-bundle.min.js"/>
-            <Script src="/vendor/php-email-form/validate.js"/>
           </Head>
+          <Script src="https://code.jquery.com/jquery-2.1.3.min.js"/>
+          <Script src="/vendor/aos/aos.js"/>
+          <Script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"/>
+          <Script src="/vendor/glightbox/js/glightbox.min.js"/>
+          <Script src="/vendor/isotope-layout/isotope.pkgd.min.js"/>
+          <Script src="/vendor/swiper/swiper-bundle.min.js"/>
+          <Script src="/vendor/php-email-form/validate.js"/>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
           <Component {...pageProps} />
 
