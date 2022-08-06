@@ -28,6 +28,21 @@ function MyApp({ Component, pageProps }) {
           <Head>
             <title>Kids-Fit</title>
             <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+            <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+            <link href="static/vendor/aos/aos.css" rel="stylesheet"/>
+            <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+            <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+            <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
+            <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
+            <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+            <link href="static/css/style.css" rel="stylesheet"/>
+            <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+            <script src="static/vendor/aos/aos.js"></script>
+            <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+            <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+            <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+            <script src="static/vendor/php-email-form/validate.js"></script>
           </Head>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
           <Component {...pageProps} />
