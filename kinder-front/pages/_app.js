@@ -28,21 +28,6 @@ function MyApp({ Component, pageProps }) {
           <Head>
             <title>Kids-Fit</title>
             <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
-            <link href="vendor/aos/aos.css" rel="stylesheet"/>
-            <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-            <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
-            <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
-            <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
-            <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
-            <link href="css/style.css" rel="stylesheet"/>
-
-            <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-            <script src="vendor/aos/aos.js"></script>
-            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-            <script src="vendor/glightbox/js/glightbox.min.js"></script>
-            <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
-            <script src="vendor/swiper/swiper-bundle.min.js"></script>
-            <script src="vendor/php-email-form/validate.js"></script>
           </Head>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
           <Component {...pageProps} />
