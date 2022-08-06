@@ -9,6 +9,7 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 import thunkMiddleware from 'redux-thunk'
 import reducers from '../redux/reducers'
 import '../styles/globals.css'
+import '../public/css/style.css'
 let store
 
 
